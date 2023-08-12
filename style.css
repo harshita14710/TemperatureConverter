@@ -1,0 +1,39 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+form{
+    background-color: rgba(0,0,0,0.1);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    margin-top: 200px;
+}
+#temp{
+    padding: 10px;
+    border-radius: 20px;
+}
+#temp_diff{
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+#submit{
+    margin-left: 150px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 80px;
+}
+#result{
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-left: 70px;
+}
